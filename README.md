@@ -12,12 +12,10 @@ The organization is divided into categories based on functionality, as described
     - __init__.py
     - extensions.py
     - extract.py
-    - extract.py
     - routing.py
     - views.py
     - model folder
         - image proc folder
-        - chatbot folder
 - [STATIC](#static)
   - images folder
   - js src
@@ -40,12 +38,11 @@ Under the `blueprints` folder, the functionality is organized into the following
 - **BLUEPRINTS** contains blueprints and initialization for `app.py`
     - __init__.py: application resource initialization
     - extensions.py: (wip) contains backend that allows simultaneous api access
-    - extract.py:  backend logic for chatbot and image upload
+    - extract.py:  backend logic for image_proc
     - routing.py: backend logic for disposal site routing
     - views.py: contains routing for templates with minimal to no backend logic
     - model folder
         - image proc folder
-        - chatbot folder
 ---
 
 ### STATIC
