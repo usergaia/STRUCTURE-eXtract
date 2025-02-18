@@ -10,7 +10,6 @@ The organization is divided into categories based on functionality, as described
 
 - [BLUEPRINTS](#blueprints)
     - __init__.py
-    - extensions.py
     - extract.py
     - routing.py
     - views.py
